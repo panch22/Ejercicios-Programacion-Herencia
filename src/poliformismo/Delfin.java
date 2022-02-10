@@ -1,23 +1,23 @@
 package poliformismo;
 
 public class Delfin extends Mamifero {
-	private double tamaño;
+	private double tamaÃ±o;
 
-	public Delfin(Especie especie, double tamaño) {
+	public Delfin(Especie especie, double tamaÃ±o) {
 		super(especie);
-		this.tamaño = tamaño;
+		this.tamaÃ±o = tamaÃ±o;
 	}
 
 	public Delfin() {
 		this(null, 0.0);
 	}
 
-	public double getTamaño() {
-		return tamaño;
+	public double getTamaÃ±o() {
+		return tamaÃ±o;
 	}
 
-	public void setTamaño(double tamaño) {
-		this.tamaño = tamaño;
+	public void setTamaÃ±o(double tamaÃ±o) {
+		this.tamaÃ±o = tamaÃ±o;
 	}
 	
 	@Override 
@@ -28,13 +28,13 @@ public class Delfin extends Mamifero {
 	
 	@Override
 	public String toString() {
-		return "\nSu tamaño es de "+this.tamaño+" metros";
+		return "\nSu tamaï¿½o es de "+this.tamaÃ±o+" metros";
 	}
 	
 	public void verCualidades() {
 		System.out.println("Las cualidades de los delfines son:"
 				+ "\n\t1. Inteligentes"
-				+ "\n\t2. Empáticos"
+				+ "\n\t2. Empï¿½ticos"
 				+ "\n\t3. Graciosos");
 	}
 	
