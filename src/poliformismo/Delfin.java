@@ -12,7 +12,7 @@ public class Delfin extends Mamifero {
 		this(null, 0.0);
 	}
 
-	public double getTamaño() {
+	public double gettamaño() {
 		return tamaño;
 	}
 
@@ -28,7 +28,7 @@ public class Delfin extends Mamifero {
 	
 	@Override
 	public String toString() {
-		return "\nSu tama�o es de "+this.tamaño+" metros";
+		return "\nSu tamaño es de "+this.tamaño+" metros";
 	}
 	
 	public void verCualidades() {
