@@ -1,16 +1,16 @@
 package figuras;
 
-public class Rect√°ngulo extends Figura{
+public class Rect·ngulo extends Figura{
 	private double altura;
 	private double base;
 	
-	public Rect√°ngulo(double posicionX, double posicionY, double altura, double base) {
+	public Rect·ngulo(double posicionX, double posicionY, double altura, double base) {
 		super(posicionX, posicionY);
 		this.altura = altura;
 		this.base = base;
 	}
 	
-	public Rect√°ngulo() {
+	public Rect·ngulo() {
 		this(0.0, 0.0, 0.0, 0.0);
 	}
 

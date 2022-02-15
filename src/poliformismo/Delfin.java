@@ -1,23 +1,23 @@
 package poliformismo;
 
 public class Delfin extends Mamifero {
-	private double tamaño;
+	private double tama�o;
 
-	public Delfin(Especie especie, double tamaño) {
+	public Delfin(Especie especie, double tama�o) {
 		super(especie);
-		this.tamaño = tamaño;
+		this.tama�o = tama�o;
 	}
 
 	public Delfin() {
 		this(null, 0.0);
 	}
 
-	public double gettamaño() {
-		return tamaño;
+	public double gettama�o() {
+		return tama�o;
 	}
 
-	public void setTamaño(double tamaño) {
-		this.tamaño = tamaño;
+	public void setTama�o(double tama�o) {
+		this.tama�o = tama�o;
 	}
 	
 	@Override 
@@ -28,7 +28,7 @@ public class Delfin extends Mamifero {
 	
 	@Override
 	public String toString() {
-		return "\nSu tamaño es de "+this.tamaño+" metros";
+		return "\nSu tamaño es de "+this.tama�o+" metros";
 	}
 	
 	public void verCualidades() {

@@ -22,7 +22,7 @@ public class Resultados {
 			imprimir((Circulo) figura1);
 			break;
 		case "r":
-			imprimir((Rect√°ngulo) figura2);
+			imprimir((Rect·ngulo) figura2);
 			break;
 		}
 	}

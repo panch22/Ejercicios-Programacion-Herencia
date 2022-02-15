@@ -8,8 +8,8 @@ public class Automovil extends VehiculoMotorizado implements CapacidadLimite {
 		this(null, null, 0, 0, null, 0);
 	}
 
-	public Automovil(String fabricante, String modelo, int aÃ±oFabricacion, int kilometraje, String estilo, int nPasajeros) {
-		super(fabricante, modelo, aÃ±oFabricacion, kilometraje);
+	public Automovil(String fabricante, String modelo, int añoFabricacion, int kilometraje, String estilo, int nPasajeros) {
+		super(fabricante, modelo, añoFabricacion, kilometraje);
 		this.estilo = estilo;
 		this.nPasajeros = nPasajeros;
 	}

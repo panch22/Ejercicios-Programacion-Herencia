@@ -3,8 +3,8 @@ package vehiculos;
 public class Motocicleta extends VehiculoMotorizado {
 	private String usoDeterminado;
 
-	public Motocicleta(String fabricante, String modelo, int aÃ±oFabricacion, int kilometraje, String usoDeterminado) {
-		super(fabricante, modelo, aÃ±oFabricacion, kilometraje);
+	public Motocicleta(String fabricante, String modelo, int añoFabricacion, int kilometraje, String usoDeterminado) {
+		super(fabricante, modelo, añoFabricacion, kilometraje);
 		this.usoDeterminado = usoDeterminado;
 	}
 
