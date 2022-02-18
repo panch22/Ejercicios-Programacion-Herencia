@@ -60,19 +60,24 @@ public class Puerta implements ControlBloqueo {
 
 	@Override
 	public String situacionBloqueo() {
-		if (numero == this.numeroPuerta && this.bloqueo == false) {
+		if(numero != this.numeroPuerta) {
+			return this.getBloqueoToString();
+		}
+		
+		if (!this.bloqueo) {
 			return bloquear();
 		} else
 			return desbloquear();
 	}
 	
-	public void informacion() {
-		String situacion;
+	public String getBloqueoToString() {
 		if (bloqueo == false) {
-			situacion = "desbloqueada";
+			return "desbloqueada";
 		} else
-			situacion = "bloqueada";
-		
-		System.out.println("La puerta "+this.numeroPuerta+": "+situacion+". Ahora: "+situacionBloqueo());
+			return "bloqueada";
+	}
+	
+	public void informacion() {		
+		System.out.println("La puerta "+this.numeroPuerta+": "+this.getBloqueoToString()+". Ahora: "+situacionBloqueo());
 	}
 }
